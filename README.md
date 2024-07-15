@@ -30,3 +30,15 @@ This device amplifies signals from low-output dynamic and ribbon microphones to 
 - Soldering equipment and materials
 
 **Note**: Most electronic components can be purchased from suppliers such as Digikey.
+
+## Circuit Schematic and PCB Layout
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="images/diagram.png" width="49%" style="margin-bottom: 10px;">
+  <img src="images/pcb.png" width="49%" style="margin-bottom: 10px;">
+</div>
+
+
+## Assembly Tips
+- Soldering Order: Start with smaller components, using tweezers for handling. This approach provides easier access to solder points.   
+- Additional Shielding: For improved noise reduction, apply aluminum tape to the inside of the case. The PCB features dedicated ground points, and the XLR connectors' screw-mounting points are also connected to ground, enhancing overall shielding effectiveness.   
+- Continuity Testing: Before powering on the device, use a multimeter to check for proper connections and to ensure there are no unwanted shorts.   
